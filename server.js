@@ -9,7 +9,7 @@ var io = socket(server);
 io.sockets.on('connection', connection);
 
 var text = {
-    text: ''
+    text: 'Лабораторная работа  #8. Муравьёв Семён и Александр Вертянкин'
 };
 
 function connection(socket){
